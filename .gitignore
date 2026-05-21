@@ -1,0 +1,36 @@
+# --- Data (large, regenerable) ---
+*.db
+*.db-journal
+*.pkl
+cache/
+
+# --- Generated outputs ---
+charts/
+today_scan_*.csv
+scan_results*.csv
+backtest*signals.csv
+backtest*buckets.csv
+backtest*summary.txt
+*_summary.txt
+
+# --- Raw / sample data ---
+example/
+台股_*.txt
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# --- macOS / IDE ---
+.DS_Store
+.idea/
+.vscode/
+
+# --- Env ---
+.env
+.env.local
